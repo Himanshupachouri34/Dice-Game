@@ -13,10 +13,13 @@ function App() {
 
   return (
     <>
+    <h3>  Made By: Himanshu Pachouri </h3>
       {
         isGameStarted ? <GamePlay/> : <StartGame
         toggle = {toggleGamePlay} /> 
       }
+   
+      
     
 
     </>
