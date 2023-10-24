@@ -1,12 +1,14 @@
 import React from 'react'
 import styled from 'styled-components'
+import { Button } from '../styled/Button'
+
 
 
 const StartGame = ({toggle}) => {
   return (
     <Container>
         <div>
-        <img src="/public/dice-1.png"  />
+        <img src="/public/dices.png"  />
         </div>
         <div className='content'>
             <h1>
@@ -37,24 +39,5 @@ align-items: center;
         font-size: 96px;
         white-space: nowrap;
     }
-  }
-`
-const Button = styled.button`
-color: white;
-min-width: 220px;
-padding: 10px 18px;
-border-radius: 5px;
-background: #000;
-border: none;
-font-size: 16px;
-border: 1px solid transparent;
-transition: 0.5s;
-cursor: pointer;
-  &:hover{
-    background-color: white;
-    border: 1px solid black;
-    color: black;
-    transition: 0.5s ;
-    font-size: 18px;
   }
 `
